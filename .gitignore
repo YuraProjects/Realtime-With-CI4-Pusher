@@ -83,7 +83,35 @@ phpunit
 #-------------------------
 # Composer
 #-------------------------
-vendor/
+# vendor/pusher/*
+# !vendor/pusher/
+# vendor/
+vendor/pusher/*
+!vendor/pusher/*
+
+vendor/nikic/*
+vendor/myclabs/*
+vendor/bin/*
+vendor/codeigniter4/*
+vendor/composer/*
+vendor/doctrine/*
+vendor/fakerphp/*
+vendor/guzzlehttp/*
+vendor/kint-php/*
+vendor/laminas/*
+vendor/mikey179/*
+vendor/paragonie/*
+vendor/phar-io/*
+vendor/phpdocumentor/*
+vendor/phpspec/*
+vendor/psr/*
+vendor/ralouphie/*
+vendor/sebastian/*
+vendor/symfony/*
+vendor/theseer/*
+vendor/webmozart/*
+
+
 
 #-------------------------
 # IDE / Development Files
